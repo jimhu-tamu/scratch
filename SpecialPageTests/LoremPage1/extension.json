@@ -1,0 +1,29 @@
+{
+	"name": "LoremPage1",
+	"version": "0.0.0",
+	"author": [
+		"Jim Hu"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LoremPage1",
+	"descriptionmsg": "lorempage1-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LoremPage1\\": "src/"
+	},
+	"AutoloadClasses":{
+		"SpecialLoremPage1":"src/Special.php"
+	},
+	"SpecialPages": {
+		"SpecialLoremPage1": "SpecialLoremPage1"
+	},
+	"AvailableRights": [
+		"lorempage1-right"
+	],
+	"MessagesDirs": {
+		"LoremPage1": [
+			"i18n"
+		]
+	},
+	"manifest_version": 1
+}

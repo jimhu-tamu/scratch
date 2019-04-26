@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "<your username>"
+        ]
+    },
+    "samplespecialpage": "Sample Special Page Extension",
+    "samplespecialpage-desc": "This is a tutorial special page",
+    "samplespecialpage-summary": "Example Special page"
+}
